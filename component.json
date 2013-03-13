@@ -1,0 +1,6 @@
+{
+  "name": "popover",
+  "version": "0.0.1",
+  "description": "Absolutely position things around other things",
+  "scripts": ["index.js"]
+}
