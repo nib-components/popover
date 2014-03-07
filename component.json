@@ -1,6 +1,10 @@
 {
   "name": "popover",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Absolutely position things around other things",
-  "scripts": ["index.js"]
+  "scripts": ["index.js"],
+  "dependencies": {
+    "timoxley/offset": "*",
+    "ramitos/detach": "*"
+  }
 }
