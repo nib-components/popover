@@ -94,8 +94,8 @@ Popover.prototype.reposition = function() {
   var pos = this._position;
   var off = this.offset(pos);
   var newpos = this.suggested(pos, off);
-  this.el.style.top = off.top;
-  this.el.style.left = off.left;
+  this.el.style.top = off.top + "px";
+  this.el.style.left = off.left + "px";
 };
 
 /**
